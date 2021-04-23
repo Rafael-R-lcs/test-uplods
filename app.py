@@ -21,7 +21,7 @@ except ImportError:
         import plotly.graph_objs as go
         import pandas as pd
         import cdata as mod
-        except ImportError:
+    except ImportError:
             raise ImportError "es Konnten nicht alle libraries korekt insterliert werden bitte kontroliren sie das sie das program als root ausgeführet haben Fals dies nich hilft führen sie bitter dei Serverrequierment.sh manuel alls root aus "
 """setzt die zugangs daten vom SQL server in die Variable 
 Muss manuel vom user angepasst werden"""
