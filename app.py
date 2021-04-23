@@ -70,16 +70,16 @@ app.layout = html.Div([
    # dcc.Graph(id = "Temp", figure = trace),
    # dcc.Graph(id = "Luftf", figure = tracel),
     """erstellt die graphen """
-    html.Pre(
-        """vormatirung der graphen """
-        id = 'structer',
-        style = {
-            'border': 'thin grey solid',  
-            'overflowY': 'scroll',
-            'height': '275px'
-            }
+   # html.Pre(
+    #    """vormatirung der graphen """
+     #   id = 'structer',
+      #  style = {
+       #     'border': 'thin grey solid',  
+        #    'overflowY': 'scroll',
+         #   'height': '275px'
+          #  }
     
-        ),
+        #),
     dcc.Interval(
         """legt den aktualisirung interval fest """
         id = 'graph-update',
