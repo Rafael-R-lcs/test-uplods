@@ -42,18 +42,11 @@ def data():
     passwd = 'plotly',
     db = 'Wetterdaten'
 )
-    print('1')
     #curser = mydb.cursor
-    print('1,5')
     df1 = pd.read_sql(query, con=mydb)
-    print('2')
-    print(df1)
-    print('3')
     #curser.close()
     mydb.close()
-    print('4')
     #df1.rename(columns = {0: 'ID', 1: 'Temperatur', 2: 'Luftfeuchtigkeit', 3: 'Time'})
-    print('5')
     return df1
 #------------------------------------------------------------------------
 app.layout = html.Div([
